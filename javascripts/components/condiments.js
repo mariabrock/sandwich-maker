@@ -27,14 +27,14 @@ const getSelectedCondiments = () => {
 const printCondimentOptions = () => {
     let domString = '';
     for (let i = 0; i < condiments.length; i++){
-    domString +=  `<div class="form-group form-check">
-    <input type="checkbox" class="form-check-input condiment" id=${condiments[i].id}>
-    <label class="form-check-label" for=${condiments[i].id}>${condiments[i].name}</label>
+    domString +=  `<div class="custom-control custom-switch">
+    <input type="checkbox" class="custom-control-input condiment" id=${condiments[i].id}>
+    <label class="custom-control-label" for=${condiments[i].id}>${condiments[i].name}</label>
     </div>
     `;
     }
 
-    utilities.printToDom('condiment-counter', domString);
+    utilities.printToDom('condiment-options', domString);
 };
 
 export default { printCondimentOptions, getSelectedCondiments };

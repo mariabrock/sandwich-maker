@@ -27,14 +27,14 @@ const getSelectedCheeses = () => {
 const printCheeseOptions = () => {
     let domString = '';
     for (let i = 0; i < cheeses.length; i++){
-    domString +=  `<div class="form-group form-check">
-    <input type="checkbox" class="form-check-input cheese" id=${cheeses[i].id}>
-    <label class="form-check-label" for=${cheeses[i].id}>${cheeses[i].name}</label>
-    </div>
+    domString +=  `<div class="custom-control custom-switch">
+    <input type="radio" name="cheeses" class="custom-control-input bread" id=${cheeses[i].id}>
+    <label class="custom-control-label" for=${cheeses[i].id}>${cheeses[i].name}</label>
+  </div>
     `;
     }
 
-    utilities.printToDom('cheese-counter', domString);
+    utilities.printToDom('cheese-options', domString);
 };
 
 export default { printCheeseOptions, getSelectedCheeses };
