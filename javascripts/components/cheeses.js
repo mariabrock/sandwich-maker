@@ -28,7 +28,7 @@ const printCheeseOptions = () => {
     let domString = '';
     for (let i = 0; i < cheeses.length; i++){
     domString +=  `<div class="custom-control custom-switch">
-    <input type="radio" name="cheeses" class="custom-control-input bread" id=${cheeses[i].id}>
+    <input type="radio" name="cheeses" class="custom-control-input cheese" id=${cheeses[i].id}>
     <label class="custom-control-label" for=${cheeses[i].id}>${cheeses[i].name}</label>
   </div>
     `;
