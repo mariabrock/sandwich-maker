@@ -2,10 +2,10 @@
 import utilities from '../helpers/utilities.js';
 
 const breads = [
-    {id:"bread1", name:"cheese", price: 100},
-    {id:"bread2", name:"garlic", price: 90},
-    {id:"bread3", name:"white", price: 80},
-    {id:"bread4", name:"wheat", price: 85},
+    {id:"bread1", name:"wheat", price: 100},
+    {id:"bread2", name:"cibatta", price: 90},
+    {id:"bread3", name:"brioche", price: 80},
+    {id:"bread4", name:"french", price: 85},
     {id:"bread5", name:"lettuce", price: 100},
 ];
 
