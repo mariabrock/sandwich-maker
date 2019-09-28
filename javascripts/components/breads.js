@@ -35,7 +35,7 @@ const printBreadOptions = () => {
     `;
     }
 
-    utilities.printToDom('bread-counter', domString);
+    utilities.printToDom('bread-options', domString);
 };
 
 export default { printBreadOptions, getSelectedBreads };
