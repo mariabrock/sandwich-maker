@@ -16,4 +16,4 @@ const init = () => {
     order.printOrderButton();
 };
 
-init()
+init();

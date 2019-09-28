@@ -27,9 +27,9 @@ const getSelectedMeats = () => {
 const printMeatOptions = () => {
     let domString = '';
     for (let i = 0; i < meats.length; i++){
-    domString +=  `<div class="form-group form-check">
-    <input type="checkbox" class="form-check-input meat" id=${meats[i].id}>
-    <label class="form-check-label" for=${meats[i].id}>${meats[i].name}</label>
+    domString +=  `<div class="custom-control custom-switch">
+    <input type="radio" class="custom-control-input bread" id=${meats[i].id}>
+    <label class="custom-control-label" for=${meats[i].id}>${meats[i].name}</label>
     </div>
     `;
     }
