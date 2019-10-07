@@ -1,6 +1,4 @@
-# read--me
-
-#Sandwich Maker
+# Sandwich Maker
 
 #User Stories
 *As a user, when I come to the page, I should see checkboxes with all possible sandwich options
