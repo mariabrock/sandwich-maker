@@ -7,10 +7,12 @@ import utilities from '../helpers/utilities.js';
 
 
 const createFinalOrder = (items) => {
+    const total = items.reduce((prev, curr) => prev + curr.price, 0);
     let domString2 = '';
     for (let i = 0; i < items.length; i++){
-        domString2 += `<h2>${items[i].name}</h2>`;
+        domString2 += `<p id="prices">${items[i].name} $${(items[i].price/100).toFixed(2)}</p>`;
     }
+    domString2 += `<h5>Final Price: $${(total/100).toFixed(2)}</h5>`
     utilities.printToDom('final-order', domString2)
 }
 
