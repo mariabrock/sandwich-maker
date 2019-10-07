@@ -1,7 +1,7 @@
 import utilities from '../helpers/utilities.js';
 
 const veggies = [
-    {id:"veggie1", name:"lettuce", price: 100},
+    {id:"veggie1", name:"lettuce", price: 10},
     {id:"veggie2", name:"tomato", price: 90},
     {id:"veggie3", name:"onion", price: 80},
     {id:"veggie4", name:"cherry peppers", price: 85},

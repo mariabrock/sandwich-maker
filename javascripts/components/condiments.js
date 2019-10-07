@@ -3,8 +3,8 @@ import utilities from '../helpers/utilities.js';
 const condiments = [
     {id:"condiment1", name:"ketchup", price: 50},
     {id:"condiment2", name:"mayo", price: 90},
-    {id:"condiment3", name:"mustard", price: 500},
-    {id:"condiment4", name:"ranch", price: 0},
+    {id:"condiment3", name:"mustard", price: 30},
+    {id:"condiment4", name:"ranch", price:75},
     {id:"condiment5", name:"siracha", price: 80},
 ];
 
